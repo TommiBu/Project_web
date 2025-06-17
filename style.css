@@ -1,0 +1,269 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.hd-container {
+  justify-content: center;
+}
+.hdc-image {
+  background-image: url(images/hdc_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+.hdc-text {
+  position: absolute;
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: right;
+  right: 15%;
+  bottom: 5%;
+}
+.au-container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  padding: 40px 0;
+}
+.au-article {
+  width: 50%;
+  right: 2rem;
+  align-self: center;
+}
+h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+.au-image {
+  width: 50%;
+}
+.au-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+@media (max-width: 768px) {
+  .au-image {
+    display: none;
+  }
+  .au-container {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .au-article {
+    width: 100%;
+  }
+}
+
+.wwd-container {
+  background-color: #33292a;
+  color: white;
+  text-align: left;
+}
+.wwd-article {
+  padding: 3rem 10%;
+}
+.wwd-article h2 {
+  text-align: center;
+}
+p {
+  line-height: 1.5;
+}
+.wwd-icons {
+  display: flex;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+.wwd-icons img {
+  width: 25%;
+  filter: invert(100%);
+}
+.ot-container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 70%;
+  justify-content: center;
+}
+.ot-container img {
+  border-radius: 5px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  object-fit: cover;
+}
+.ot-g1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.ot-g2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.ot-g3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.ot-g4 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.ot-title {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  text-align: center;
+  align-self: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.ot-title h2 {
+  padding: 55px 0;
+}
+.ot-g5 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.ot-g6 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.ot-g7 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.ot-g8 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.cu-container {
+  background-color: #644b4f;
+  color: white;
+  display: flex;
+  padding: 40px 0;
+}
+.cu-title {
+  width: 50%;
+  text-align: left;
+  right: 2rem;
+  margin-left: 8rem;
+  margin-top: 2rem;
+}
+.cu-title h2 {
+  font-size: 2.5rem;
+}
+.cu-article {
+  width: 50%;
+  text-align: left;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+@media (max-width: 768px) {
+  .cu-title {
+    display: none;
+  }
+  .cu-container {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .cu-article {
+    width: 100%;
+  }
+}
+button {
+  color: #644b4f;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+.rv-container {
+  background-color: #f2f2f2;
+  text-align: center;
+  margin-top: -2rem;
+}
+.rv-text {
+  width: 60%;
+  align-self: center;
+  padding: 3rem 20%;
+}
+.rv-text h2 {
+  margin-bottom: -1.3rem;
+}
+.rv-exampels {
+  display: flex;
+  width: 100%;
+}
+.rv-exampels img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.rv-1 {
+  width: 50%;
+  margin: 3rem;
+}
+.rv-2 {
+  width: 50%;
+  margin: 3rem;
+}
+@media (max-width: 768px) {
+  .rv-text p {
+    display: none;
+  }
+  .rv-1 {
+    display: none;
+  }
+  .rv-2 {
+    width: 100%;
+  }
+}
+.cl-container {
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+}
+.cl-container img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.cl-img1,
+.cl-img2 {
+  margin-bottom: -5px;
+}
+.ft-container {
+  height: 4rem;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  margin-top: -5px;
+}
+.ft-container a {
+  color: #644b4f;
+  font-size: 1.3rem;
+}
+.ft-container p {
+  font-size: 0.7rem;
+  padding: 20px 0 0 0;
+}
